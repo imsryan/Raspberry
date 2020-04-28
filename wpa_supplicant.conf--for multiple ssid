@@ -1,0 +1,16 @@
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=<Insert country code here>
+network={
+    ssid="HomeOneSSID"
+    psk="passwordOne"
+    priority=1
+    id_str="homeOne"
+}
+
+network={
+    ssid="HomeTwoSSID"
+    psk="passwordTwo"
+    priority=2
+    id_str="homeTwo"
+}
