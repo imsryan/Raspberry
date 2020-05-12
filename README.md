@@ -56,9 +56,9 @@ sudo apt-get autoremove
 #10. Ablove command can be done just via the ssh connection, and after that I turn the vncserver to login in to the system
 #11. This is my raspberrry headless installation and configuration. 
 #12. There is one interesting thing that I ever trying to follow some of the Pi players'  to pre-load the "wpa_supplicant.conf" after write the raspbian image into the microsd
-#And I do follow the instruction to do, but it seems only 50%  success rate, I'd even try to re-structure the configuration ----> to put the "country code" in front
-#My personnel result/feedback ==> better not to load the file in the beginning; just use the local connection as describe as previious item 5-b.
-#And the following configuration was the one I put in my initial  "wpa_supplicant.conf" for refference. 
+##And I do follow the instruction to do, but it seems only 50%  success rate, I'd even try to re-structure the configuration ----> to put the "country code" in front
+##My personnel result/feedback ==> better not to load the file in the beginning; just use the local connection as describe as previious item 5-b.
+##And the following configuration was the one I put in my initial  "wpa_supplicant.conf" for refference. 
 
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -76,4 +76,4 @@ network={
     id_str="Private"
 }
 	
-13. To be continue
+#13. To be continue
